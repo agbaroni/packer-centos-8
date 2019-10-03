@@ -1,0 +1,16 @@
+{
+    "disk_size": 16384,
+    "guest_os_type": "RedHat_64",
+    "iso_checksum": "ea17ef71e0df3f6bf1d4bf1fc25bec1a76d1f211c115d39618fe688be34503e8",
+    "iso_url": "http://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8-x86_64-1905-dvd1.iso",
+    "iso_checksum_type": "sha256",
+//    "headless": true,
+    "cpus": 2,
+    "memory": 2048,
+    "communicator": "ssh",
+    "type": "virtualbox-iso",
+    "boot_wait": "5s",
+    "boot_command": [
+	""
+    ]
+}
